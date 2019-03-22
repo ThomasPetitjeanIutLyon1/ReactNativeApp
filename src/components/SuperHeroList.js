@@ -16,10 +16,8 @@ function SuperheroList(props) {
                      source={ {uri: charac.thumbnail.path+'.'+charac.thumbnail.extension}}
                      style={styles.avatar}
                      />}
-                 onPress={() => props.navigation.navigate('Details', {
-                   charac: charac
-                  })}
-                  key={charac.id}
+                 onPress={this.props.onPress}
+                key={charac.id}
                   right= {props => <List.Icon {...props} icon="chevron-right" />}
               />
 

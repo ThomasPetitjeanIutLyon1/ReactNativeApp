@@ -119,6 +119,9 @@ loadMore() {
         <SuperHeroList
         list = {this.state.listCharac}
         navigation = {this.props.navigation}
+        onPress = {() => this.props.navigation.navigate('Details', {
+          charac: charac
+         })}
         />
         
         {queryHasResults === false &&

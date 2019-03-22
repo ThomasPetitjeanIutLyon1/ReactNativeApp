@@ -4,7 +4,7 @@ import ComicDescription from '../Components/ComicDescription';
 import Carousel from 'react-native-snap-carousel';
 import { Image } from 'react-native-elements';
 
-export default class DetailScreen extends Component {
+class DetailScreen extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
