@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
-import { createStackNavigator, createAppContainer } from "react-navigation";
+import { createStackNavigator, createAppContainer } from 'react-navigation';
 import HomeScreen from './src/screens/HomeScreen';
 import DetailScreen from './src/screens/DetailScreen';
 import { Provider as PaperProvider } from 'react-native-paper';
+
+//api mdp : LwqL:UXT7asQNG3
 
 export class App extends Component {
   render() {
